@@ -1,0 +1,21 @@
+{
+  "name": "oneword",
+  "version": "1.0.0",
+  "description": "Sends you one english word and its meaning each day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ankur Chavda",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^4.0.0",
+    "node-schedule": "^1.2.5",
+    "nodemailer": "^4.1.0",
+    "request": "^2.81.0",
+    "twilio": "^3.6.7"
+  }
+}
