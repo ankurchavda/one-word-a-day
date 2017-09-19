@@ -10,13 +10,11 @@
   "author": "Ankur Chavda",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.1",
     "cheerio": "^1.0.0-rc.2",
     "dotenv": "^4.0.0",
     "forever": "^0.15.3",
     "node-schedule": "^1.2.5",
     "nodemailer": "^4.1.0",
-    "request": "^2.81.0",
-    "twilio": "^3.6.7"
+    "request": "^2.81.0"
   }
 }
