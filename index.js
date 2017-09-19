@@ -1,6 +1,6 @@
-require('dotenv').config({
-    path: './development.env'
-});
+// require('dotenv').config({
+//     path: './development.env'
+// });
 const cheerio = require('cheerio');
 const request = require('request');
 const bodyParser = require('body-parser');
@@ -10,8 +10,10 @@ var fs = require('fs');
 
 var rule = new schedule.RecurrenceRule();
 
-rule.hour = 15;
-rule.minute = 54;
+rule.hour = 9;
+rule.minute = 30;
+
+console.log(rule);
 
 var j = schedule.scheduleJob(rule, function () {
     request.get('https://gre.economist.com/gre-vocabulary', function (err, response, body) {
